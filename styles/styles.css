@@ -27,12 +27,13 @@ p {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.616);
 }
 
-.logo{
+.logo {
     width: 64px;
     opacity: 0.4;
     transition: 0.2s;
 }
-.logo:hover{
+
+.logo:hover {
     opacity: 0.8;
 }
 
@@ -44,15 +45,44 @@ p {
     height: 25%;
     object-fit: cover;
     z-index: -100;
-    mask-image: linear-gradient(to top,transparent, #000);
+    mask-image: linear-gradient(to top, transparent, #000);
 }
 
-div.services{
-     padding: 5%;
+.hireButton {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom,
+            rgba(136, 191, 232, 1) 0%,
+            rgba(158, 199, 229, 1) 9%,
+            rgba(158, 199, 229, 1) 89%,
+            rgba(112, 176, 224, 1) 100%);
+    display: inline;
+    margin: 5%;
+    padding: 1%;
+    z-index: 1000;
+}
+
+.hireButton a {
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 200;
+    font-size: 16pt;
+    letter-spacing: normal;
+    transition: 0.2s;
+}
+
+.hireButton a:hover{
+    letter-spacing: 1pt;
+}
+
+div.services {
+    padding: 5%;
 }
 
 div.servicesA {
-   
+
     display: flex;
     justify-content: flex-end;
 }
@@ -67,56 +97,56 @@ div.servicesC {
     justify-content: flex-end;
 }
 
-footer{
+footer {
     margin: 0;
     font-weight: lighter;
     border-top: 1px solid white;
     background-color: #101922;
-    position:relative;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
 
-footer .navigation ul{
+footer .navigation ul {
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content:center;
+    justify-content: center;
 }
 
-footer .navigation ul li{
+footer .navigation ul li {
     padding-left: 10px;
     padding-right: 10px;
 }
 
-footer .navigation ul li a{
+footer .navigation ul li a {
     text-decoration: none;
 }
 
-footer .socials{
+footer .socials {
     border-top: 1px solid rgba(255, 255, 255, 0.466);
 }
 
 
-footer .socials ul{
+footer .socials ul {
     display: flex;
     flex-direction: row;
     list-style: none;
     justify-content: center;
 }
 
-footer .socials ul li{
+footer .socials ul li {
     padding-left: 20px;
     padding-right: 20px;
 }
 
-footer .socials ul li a img{
+footer .socials ul li a img {
     width: 32px;
     height: auto;
     filter: invert(1);
 }
 
-footer .info p{
+footer .info p {
     font-family: "Josefin Sans";
     font-weight: lighter;
     font-size: 11pt;
