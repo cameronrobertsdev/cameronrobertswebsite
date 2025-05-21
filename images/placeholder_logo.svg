@@ -7,12 +7,12 @@
     <g>
         <path d="M430,60L60,60L60,110L430,110" style="fill:none;stroke:black;stroke-width:16px;"/>
         <g transform="matrix(0.652312,0,0,1,20.8613,100)">
-            <path d="M430,180C447.621,141.037 447.718,101.042 430,60L60,60L60,180L430,180Z" style="fill:none;stroke:black;stroke-width:18.95px;"/>
+            <path d="M60,180C243.961,180 243.961,60 60,60L60,180Z" style="fill:none;stroke:black;stroke-width:18.95px;"/>
         </g>
         <path d="M430,320L60,320L60,488" style="fill:none;stroke:black;stroke-width:16px;"/>
         <path d="M430,320L430,360L60,360L220,488" style="fill:none;stroke:black;stroke-width:16px;"/>
         <circle cx="460" cy="110" r="10"/>
-        <g transform="matrix(1,0,0,1,0,170)">
+        <g transform="matrix(1,0,0,1,-290,170)">
             <circle cx="460" cy="110" r="10"/>
         </g>
         <g transform="matrix(1,0,0,1,0,378)">
