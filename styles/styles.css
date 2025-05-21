@@ -1,3 +1,37 @@
+body {
+    background-color: #15212D;
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 24pt;
+}
+
+p {
+    font-weight: normal;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.616);
+    font-size: 21pt;
+}
+
+
+* {
+    font-family: "Josefin Sans";
+    color: #FBFBFB;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.616);
+}
+
+.logo{
+    width: 64px;
+    opacity: 0.4;
+}
+.logo:hover{
+    opacity: 0.8;
+}
+
 .topVideo video {
     position: absolute;
     top: 0;
@@ -6,5 +40,25 @@
     height: 25%;
     object-fit: cover;
     z-index: -100;
+    mask-image: linear-gradient(to top,transparent, #000);
 }
 
+div.services{
+     padding: 5%;
+}
+
+div.servicesA {
+   
+    display: flex;
+    justify-content: flex-end;
+}
+
+div.servicesB {
+    display: flex;
+    justify-content: flex-start;
+}
+
+div.servicesC {
+    display: flex;
+    justify-content: flex-end;
+}
