@@ -1,12 +1,15 @@
 body {
     background-color: #15212D;
+    margin: 0;
 }
 
 h1 {
+    font-family: "Josefin Sans";
     font-weight: bolder;
 }
 
 h2 {
+    font-family: "Josefin Sans";
     font-weight: bold;
     font-size: 24pt;
 }
@@ -14,12 +17,12 @@ h2 {
 p {
     font-weight: normal;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.616);
-    font-size: 21pt;
+    font-size: 16pt;
 }
 
 
 * {
-    font-family: "Josefin Sans";
+    font-family: "Roboto";
     color: #FBFBFB;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.616);
 }
@@ -27,6 +30,7 @@ p {
 .logo{
     width: 64px;
     opacity: 0.4;
+    transition: 0.2s;
 }
 .logo:hover{
     opacity: 0.8;
@@ -61,4 +65,59 @@ div.servicesB {
 div.servicesC {
     display: flex;
     justify-content: flex-end;
+}
+
+footer{
+    margin: 0;
+    font-weight: lighter;
+    border-top: 1px solid white;
+    background-color: #101922;
+    position:relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer .navigation ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+footer .navigation ul li{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer .navigation ul li a{
+    text-decoration: none;
+}
+
+footer .socials{
+    border-top: 1px solid rgba(255, 255, 255, 0.466);
+}
+
+
+footer .socials ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+}
+
+footer .socials ul li{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+footer .socials ul li a img{
+    width: 32px;
+    height: auto;
+    filter: invert(1);
+}
+
+footer .info p{
+    font-family: "Josefin Sans";
+    font-weight: lighter;
+    font-size: 11pt;
 }
