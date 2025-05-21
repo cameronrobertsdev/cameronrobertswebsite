@@ -1,3 +1,9 @@
+* {
+    font-family: "Roboto";
+    color: #FBFBFB;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.616);
+}
+
 body {
     background-color: #15212D;
     margin: 0;
@@ -9,23 +15,32 @@ h1 {
 }
 
 h2 {
+    margin-left: 230px;
+    margin-right: 230px;
     font-family: "Josefin Sans";
     font-weight: bold;
     font-size: 24pt;
 }
 
 p {
-    font-weight: normal;
+    font-family: "Josefin Sans";
+    font-weight: lighter;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.616);
     font-size: 16pt;
+    margin-left: 260px;
+    margin-right: 260px;
 }
 
-
-* {
-    font-family: "Roboto";
-    color: #FBFBFB;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.616);
+ul{
+    margin-left: 250px;
+    margin-right: 250px;
+    list-style: none;
 }
+
+li{
+    text-decoration: none;
+}
+
 
 .logo {
     width: 64px;
@@ -75,6 +90,10 @@ p {
 
 .hireButton a:hover{
     letter-spacing: 1pt;
+}
+
+.navBar {
+
 }
 
 div.services {
@@ -151,3 +170,12 @@ footer .info p {
     font-weight: lighter;
     font-size: 11pt;
 }
+
+/* work page specifics */
+
+.showreel {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
