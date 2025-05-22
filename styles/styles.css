@@ -106,6 +106,15 @@ li{
     letter-spacing: 1pt;
 }
 
+.background{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    opacity: 10%;
+    filter: saturate(30%);
+    z-index: -1000;
+}
+
 .navBar {
 
 }
