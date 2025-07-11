@@ -122,47 +122,6 @@ li{
 
 
 
-
-.services ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.services ul li{
-    display: flex;
-    flex-direction: row;
-    margin-top: 100px;
-    gap: 100px;
-}
-
-.servicesTextBlock ul{
-    padding-left: 0px;
-}
-
-.servicesTextBlock ul li{
-    margin-top: 0;
-    position: relative;
-    align-self: flex-start;
-}
-
-/* div.servicesA {
-   display: flex;
-   justify-content: right;
-   padding-top: 50px;
-}
-div.servicesB {
-    display: flex;
-    justify-content: left;
-    padding-top: 50px;
-}
-div.servicesC{
-    display: flex;
-    justify-content: right;
-    padding-top: 50px;
-} */
-
-
 footer {
     margin: 0;
     font-weight: lighter;
