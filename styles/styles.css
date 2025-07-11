@@ -127,7 +127,7 @@ footer {
     font-weight: lighter;
     border-top: 1px solid white;
     background-color: #101922;
-    position: relative;
+    position: absolute;
     bottom: 0;
     width: 100%;
 }
