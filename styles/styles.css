@@ -15,8 +15,6 @@ h1 {
 }
 
 h2 {
-    margin-left: 230px;
-    margin-right: 230px;
     font-family: "Josefin Sans";
     font-weight: bold;
     font-size: 24pt;
@@ -27,13 +25,9 @@ p {
     font-weight: lighter;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.616);
     font-size: 16pt;
-    margin-left: 260px;
-    margin-right: 260px;
 }
 
 ul{
-    margin-left: 250px;
-    margin-right: 250px;
     list-style: none;
 }
 
@@ -50,6 +44,17 @@ li{
 
 .logo:hover {
     opacity: 0.8;
+}
+
+.title {
+    font-size: 64pt;
+    padding-left: 5%;
+    padding-right: 10% ;
+    padding-top: 5%;
+}
+
+.subtitle{
+    padding-left: 7%;
 }
 
 .topVideo video {
@@ -115,19 +120,33 @@ li{
     z-index: -1000;
 }
 
-.navBar {
 
-}
 
-div.services {
+
+.services ul {
     display: flex;
     flex-direction: column;
-    padding-top: 50px;
-    margin-left: 260px;
-    margin-right: 260px;
+    align-items: center;
 }
 
-div.servicesA {
+.services ul li{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    gap: 100px;
+}
+
+.servicesTextBlock ul{
+    padding-left: 0px;
+}
+
+.servicesTextBlock ul li{
+    margin-top: 0;
+    position: relative;
+    align-self: flex-start;
+}
+
+/* div.servicesA {
    display: flex;
    justify-content: right;
    padding-top: 50px;
@@ -141,7 +160,7 @@ div.servicesC{
     display: flex;
     justify-content: right;
     padding-top: 50px;
-}
+} */
 
 
 footer {
@@ -203,7 +222,7 @@ footer .info p {
 
 .showreel {
     max-width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
+    /*margin-left: auto;
+    margin-right: auto;*/
 }
 
